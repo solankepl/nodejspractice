@@ -1,0 +1,8 @@
+var fs = require('fs'),
+	dirName = 'folderName';
+	
+fs.readdir(dirName, function(error, files) {
+	if (error) throw error;
+	console.log('Following are the directory contents: ');
+	console.log(files);
+});
