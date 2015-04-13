@@ -1,0 +1,11 @@
+http://expressjs.com/starter/generator.html
+
+$ npm install express-generator -g
+
+express myapp
+
+$ npm install
+
+then run file bin folde www file 
+
+node www run command
